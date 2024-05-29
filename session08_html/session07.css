@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head {
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    -moz-box-shadow: -2px -2px 20px 2px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: -2px -2px 20px 2px rgba(0, 0, 0, 0.71);
+    -ms-box-shadow: -2px -2px 20px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: -2px -2px 20px 2px rgba(0, 0, 0, 0.71);
+
+}
+
+.head img {
+    height: 50px;
+    padding-left: 50px;
+}
+
+.head .mid div {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+
+.head button {
+    border: none;
+    border-radius: 7px;
+    padding: 7px 11px;
+    margin-right: 50px;
+
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .image {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 20px;
+}
+
+.banner h2 {
+    color: rgb(34, 34, 111);
+    position: absolute;
+    top: 115px;
+    left: 35px;
+    font-size: xx-large;
+}
+
+.content {
+    color: rgb(34, 34, 111);
+    position: absolute;
+    top: 195px;
+    left: 35px;
+}
+
+.button1 {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 310px;
+    left: 35px;
+    padding: 8px 13px;
+}
+
+.button2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(34, 34, 111);
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 5px;
+    position: absolute;
+    top: 310px;
+    left: 170px;
+    padding: 8px 13px;
+}
+
+.footer {
+    position: relative;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.child {
+    width: 270px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 2;
+
+}
+
+.child h3 {
+    background-color: white;
+    color: red;
+}
+
+.child p {
+    color: rgb(34, 34, 111);
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+/* -----next-page----- */
+.next-content {
+    display: flex;
+    position: relative;
+    background-color: #f8f7fa;
+    height: 700px;
+    z-index: 1;
+}
+
+.video {
+    position: absolute;
+    top: 200px;
+    left: 35px;
+}
+
+.paragraph {
+    position: absolute;
+    top: 240px;
+    right: 35px;
+}
+
+.paragraph h3 {
+    color: red;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+.paragraph p {
+    color: #231651;
+}
+
+/* ------next-page------- */
+.next-content1 {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    position: relative;
+}
+
+.next-content1 h2 {
+    color: red;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.parent1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 30px;
+    left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parent1 img {
+    width: 40px;
+}
+
+.parent1 .child1 {
+    width: 350px;
+    height: 170px;
+    margin: 40px 16px;
+    border: none;
+}
+
+.parent1 .child1 h3 {
+    color: red;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.parent1 .child1 p {
+    padding-bottom: 20px;
+}
+
+.parent2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 270px;
+    left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parent2 img {
+    width: 40px;
+}
+
+.parent2 .child2 {
+    width: 350px;
+    height: 170px;
+    margin: 40px 16px;
+    border: none;
+}
+
+.parent1 .child1,
+.parent2 .child2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    position: relative;
+}
+
+.button1 {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 13px;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}
+
+.button2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(34, 34, 111);
+    border: 1px solid rgb(72, 70, 70);
+    border-radius: 5px;
+    position: absolute;
+    padding: 8px 13px;
+    position: absolute;
+    top: 500px;
+    left: 580px;
+}
+
+/* ------next-page------- */
+.next-content2 {
+    width: 100%;
+    height: 600px;
+    background-color: #f8f7fa;
+    position: relative;
+}
+
+.next-content2 h2 {
+    color: red;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+.next-content2 .parent3 {
+    display: flex;
+    padding: 0px 170px;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    top: 150px;
+    left: 1px;
+}
+
+.next-content2 .parent3 .child3 {
+    background-color: white;
+    color: #231651;
+    border: 1px solid rgb(236, 234, 234);
+    border-radius: 5px;
+    padding: 5px 40px;
+}
+
+/* -------next-page----------- */
+.next-content3 {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    position: relative;
+}
+
+.next-content3 .title h3 {
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.next-content3 .title p {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: #231651;
+}
+
+.parent4 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #231651;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.parent4 h3 span {
+    margin-top: 15px;
+}
+
+.parent4 .child4 {
+    margin-top: 100px;
+}
+
+
+
+.child4 .s1 {
+    position: absolute;
+    top: 420px;
+    left: 190px;
+    border: 1px solid #231651;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+.child4 .s2 {
+    position: absolute;
+    top: 420px;
+    right: 150px;
+    border: 1px solid #231651;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+.child4 span p {
+    color: #231651;
+}
+
+.child4 p {
+    margin-top: 20px;
+}
+
+.parent5 {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    justify-content: space-between;
+    margin: 30px;
+    color: #231651;
+    margin-right: 16px;
+}
+
+.parent5 h3 span {
+    margin-top: 15px;
+}
+
+.parent5 p {
+    margin-top: 15px;
+}
+
+.child5 .s3 {
+    position: absolute;
+    top: 878px;
+    left: 190px;
+    border: 1px solid #231651;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+.child5 .s4 {
+    position: absolute;
+    top: 878px;
+    right: 225px;
+    border: 1px solid #231651;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+/* --------next-page--------- */
+.next-content4 {
+    position: relative;
+    background-color: white;
+    color: #231651;
+    width: 100%;
+    height: 1200px;
+    align-items: center;
+}
+
+.next-content4 .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img .title {
+    color: red;
+    position: absolute;
+    top: 510px;
+    left: 65px;
+}
+
+.img p {
+    position: absolute;
+    top: 510px;
+    right: 22px;
+}
+
+.next-content4 span {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.next-content4 .parent6 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 90px;
+    left: 65px;
+}
+
+.next-content4 .parent6 img {
+    width: 200px;
+    height: 250px;
+}
+
+.parent6 .child1:hover {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 250px;
+    height: 500px;
+}
+
+.parent6 .child1 h3,
+span p {
+    justify-content: center;
+}
